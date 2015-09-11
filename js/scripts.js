@@ -1,7 +1,11 @@
 var findReplace = function(string, search_word, replacement) {
-  var search_word = RegExp(search_word, 'gi')
+  var search_word = new RegExp(search_word, 'gi')
   var replacement_string = string.replace(search_word, replacement);
-  return replacement_string;
+  if (string === replacement_string) {
+    return "This word does not appear in your text";
+  } else {
+    return replacement_string;
+  }
 };
 
 $(document).ready(function() {

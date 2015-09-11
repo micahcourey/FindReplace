@@ -1,3 +1,29 @@
+body {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #A9D2D5;
+  color: #5F506B;
+}
+
 #result {
   display: none;
+}
+
+.btn {
+  background-color: #5F506B;
+  color: #A9D2D5;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: #5F506B;
+}
+
+.btn:hover {
+  color: #FFFFFF;
+}
+
+.focus:focus {
+  outline: none;
+  border-color: #5F506B;
+  box-shadow: 0 0 10px #5F506B;
 }
