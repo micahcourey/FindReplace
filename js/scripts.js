@@ -1,5 +1,5 @@
-var findReplace = function(string, replacement) {
+var findReplace = function(string, search_word, replacement) {
   //var string = /string/gi;
-  var replacement_string = string.replace(string, replacement);
+  var replacement_string = string.replace(search_word, replacement);
   return replacement_string;
 }
