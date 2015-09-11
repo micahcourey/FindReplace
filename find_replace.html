@@ -13,19 +13,25 @@
 
       <form id="find_replace">
 
-        <div class="form-group">
-          <label for="string">Enter text:</label>
-          <input id="string" type="text">
+        <div class="control-group">
+          <label class="control-label" for="string">Enter text:</label>
+          <div class="controls">
+            <textarea rows="8" cols="35" id="string" type="text"></textarea>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="search_word">Enter a search word:</label>
-          <input id="search_word" type="text">
+        <div class="control-group">
+          <label class="control-label" for="search_word">Enter a search word:</label>
+          <div class="controls">
+            <input id="search_word" type="text">
+          </div>
         </div>
-        <div class="form-group">
-          <label for="replacement">Enter a replacement word:</label>
-          <input id="replacement" type="text">
+        <div class="control-group">
+          <label class="control-label" for="replacement">Enter a replacement word:</label>
+          <div class="controls">
+            <input id="replacement" type="text">
+          <div class="controls">
         </div>
-
+        <br>
         <button type="submit" class="btn">Replace</button>
       </form>
         <br>
