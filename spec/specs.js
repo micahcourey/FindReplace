@@ -1,6 +1,6 @@
 describe('findReplace', function() {
-  it("", function() {
-    expect(findReplace( )).to.equal( );
+  it("input a word and output that word", function() {
+    expect(findReplace(Micah)).to.equal(Micah);
   })
 
 })
