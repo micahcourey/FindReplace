@@ -6,7 +6,7 @@
 
 ## Description
 
-_An app that finds all instances of a word in a block of text and replaces all instances of the found word with a replacement word_
+_An app that finds all instances of a word in a block of text and replaces all instances of the found word with a replacement word. Check it out at: http://micahcourey.github.io/FindReplace_
 
 ## Setup
 
