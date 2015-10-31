@@ -1,7 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background-color: #A9D2D5;
   color: #5F506B;
+  margin-top: 14px;
+}
+
+p {
+  font-size: 1.4em;
 }
 
 #result {
